@@ -1,5 +1,6 @@
 package com.example.Spring.model;
 
+
 public class Pessoa {
     private String nome;
     private int idade;
@@ -15,23 +16,20 @@ public class Pessoa {
         this.profissao = profissao;
     }
 
-    public String getNome() {
-        return nome;
-    }
+    // Getters e Setters
+    public String getNome() { return nome; }
+    public void setNome(String nome) { this.nome = nome; }
 
-    public int getIdade() {
-        return idade;
-    }
+    public int getIdade() { return idade; }
+    public void setIdade(int idade) { this.idade = idade; }
 
-    public String getSexo() {
-        return sexo;
-    }
+    public String getSexo() { return sexo; }
+    public void setSexo(String sexo) { this.sexo = sexo; }
 
-    public String getEstadoCivil() {
-        return estadoCivil;
-    }
+    public String getEstadoCivil() { return estadoCivil; }
+    public void setEstadoCivil(String estadoCivil) { this.estadoCivil = estadoCivil; }
 
-    public String getProfissao() {
-        return profissao;
-    }
+    public String getProfissao() { return profissao; }
+    public void setProfissao(String profissao) { this.profissao = profissao; }
+
 }
